@@ -56,7 +56,3 @@ Visualizations are provided to easily interpret trends and identify high-risk sh
 - **Seaborn & Matplotlib** for data visualization
 - **Datetime** for time-based features
 - **Jupyter Notebook** for exploratory analysis
-
-
-   git clone https://github.com/your-username/guardlytics-security-analysis.git
-   cd guardlytics-security-analysis
