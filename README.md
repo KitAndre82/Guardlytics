@@ -59,8 +59,7 @@ Visualizations are provided to easily interpret trends and identify high-risk sh
 
 
 ### Data Dictionary
-**File: guard_shift_schedule_with_weekly_hours.csv**
-#### Column	                   
+**File: guard_shift_schedule_with_weekly_hours.csv**	                   
 - Guard_ID:	                 Unique identifier for each guard
 - Date:	                     Date of the shift
 - Week:	                     Week number of the year
@@ -74,8 +73,7 @@ Visualizations are provided to easily interpret trends and identify high-risk sh
 - Weekly_Hours:	             Cumulative hours worked in the week
 - Over_40_Hours:             Boolean indicating if weekly hours exceeded 40
 
-**File: synced_guard_patrols.csv**
-#### Column	                   
+**File: synced_guard_patrols.csv**	                   
 - Timestamp:	               Timestamp when the patrol or scan was recorded
 - Site:	                     Site where the patrol occurred
 - Guard_ID:	                 Unique identifier of the guard
