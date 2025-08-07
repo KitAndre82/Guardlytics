@@ -61,33 +61,33 @@ Visualizations are provided to easily interpret trends and identify high-risk sh
 ### Data Dictionary
 **File: guard_shift_schedule_with_weekly_hours.csv**
 #### Column	                   Description
-Guard_ID	                 Unique identifier for each guard
-Date	                     Date of the shift
-Week	                     Week number of the year
-Regular_Shift	             Scheduled shift for the guard (Morning, Afternoon, Night)
-Actual_Shift	             Actual shift worked by the guard
-Is_Covering	               Boolean indicating if the guard is covering for someone else
-Site	                     Name of the site (e.g., Oakland, Los Angeles)
-Clock_In	                 Actual clock-in timestamp
-Clock_Out	                 Actual clock-out timestamp
-Hours_Worked	             Total hours worked in that shift
-Weekly_Hours	             Cumulative hours worked in the week
-Over_40_Hours            	 Boolean indicating if weekly hours exceeded 40
+- Guard_ID	                 Unique identifier for each guard
+- Date	                     Date of the shift
+- Week	                     Week number of the year
+- Regular_Shift	             Scheduled shift for the guard (Morning, Afternoon, Night)
+- Actual_Shift	             Actual shift worked by the guard
+- Is_Covering	               Boolean indicating if the guard is covering for someone else
+- Site	                     Name of the site (e.g., Oakland, Los Angeles)
+- Clock_In	                 Actual clock-in timestamp
+- Clock_Out	                 Actual clock-out timestamp
+- Hours_Worked	             Total hours worked in that shift
+- Weekly_Hours	             Cumulative hours worked in the week
+- Over_40_Hours            	 Boolean indicating if weekly hours exceeded 40
 
 **File: synced_guard_patrols.csv**
 #### Column	                   Description
-Timestamp	                 Timestamp when the patrol or scan was recorded
-Site	                     Site where the patrol occurred
-Guard_ID	                 Unique identifier of the guard
-Shift	                     Shift during which the patrol was conducted (Morning, Afternoon, Night)
-Interior_Exterior	         Indicates whether the patrol was interior or exterior
-Incident_Type	             Type of security incident (e.g., Theft, Disturbance, Unauthorized Access)
-Response_Time_Minutes	     Time taken to respond to the incident, in minutes
-Patrol_Completed	         Boolean flag indicating whether the patrol was completed
-QR_Scans	                 Number of QR code scans performed during the patrol
-QR_Code_Locations_Scanned	 List of QR scan locations visited during the patrol
-Overtime_Hours	           Overtime hours accrued during this patrol
-Week	                     Week number of the patrol
-Month	                     Month in which the patrol occurred (added in preprocessing)
-Day	                       Day of the week for the patrol (added in preprocessing)
+- Timestamp	                 Timestamp when the patrol or scan was recorded
+- Site	                     Site where the patrol occurred
+- Guard_ID	                 Unique identifier of the guard
+- Shift	                     Shift during which the patrol was conducted (Morning, Afternoon, Night)
+- Interior_Exterior	         Indicates whether the patrol was interior or exterior
+- Incident_Type	             Type of security incident (e.g., Theft, Disturbance, Unauthorized Access)
+- Response_Time_Minutes	     Time taken to respond to the incident, in minutes
+- Patrol_Completed	         Boolean flag indicating whether the patrol was completed
+- QR_Scans	                 Number of QR code scans performed during the patrol
+- QR_Code_Locations_Scanned	 List of QR scan locations visited during the patrol
+- Overtime_Hours	           Overtime hours accrued during this patrol
+- Week	                     Week number of the patrol
+- Month	                     Month in which the patrol occurred (added in preprocessing)
+- Day	                       Day of the week for the patrol (added in preprocessing)
 
